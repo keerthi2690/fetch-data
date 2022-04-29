@@ -1,0 +1,9 @@
+{
+	"name": "rama-keerthi",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b038d168-e87c-46e8-a9a7-b50db171db51",
+		"tenantId": "c6e06343-5028-498d-b719-aa54fd1df4ad"
+	}
+}
