@@ -1,0 +1,25 @@
+{
+	"name": "trigger2",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/shanvi123/blobs/input",
+			"blobPathEndsWith": "keerthi",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/03346113-4362-4a50-be62-cc1c72bfafc6/resourceGroups/swathi123/providers/Microsoft.Storage/storageAccounts/thiswa123",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
